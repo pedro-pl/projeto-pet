@@ -40,7 +40,7 @@ export const styles = StyleSheet.create({
         backgroundColor: '#fff',
         width: '95%',
         borderRadius: 5,
-        height:95,
+        height:85,
         marginTop: 30,
         display: 'flex',
         justifyContent: 'space-around',

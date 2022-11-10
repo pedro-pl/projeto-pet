@@ -9,10 +9,9 @@ export const styles = StyleSheet.create({
     },
     informacoes:{
         backgroundColor: '#fff',
-        width: '95%',
-        borderRadius: 5,
+        width: '97%',
         height: 95,
-        marginTop: 15,
+        marginTop: 5,
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
@@ -34,21 +33,30 @@ export const styles = StyleSheet.create({
         borderRadius: 50,
     },
     resumo:{
+        height: 60,
+        display: 'flex',
+        justifyContent: 'center',
         marginLeft: 20,
     },
     dados:{
         color: '#264653',
-        fontSize: 16,
+        fontSize: 25,
+        fontWeight: 'bold',
     },
-    menu:{
+    subDado:{
+        color: '#264653',
+        fontSize: 12,
+        fontWeight: 'bold',
+    },
+    canva:{
         backgroundColor: '#fff',
-        width: '95%',
-        borderRadius: 5,
-        height: '35%',
-        marginTop: 15,
+        width: '97%',
+        flex: 1,
+        marginTop: 5,
+        marginBottom: 5,
         display: 'flex',
-        justifyContent: 'space-around',
-        paddingLeft: 15,
+        justifyContent: 'space-between',
+        alignItems: 'center',
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -58,8 +66,28 @@ export const styles = StyleSheet.create({
         shadowRadius: 1.00,
         elevation: 1,
     },
+    menu:{
+        marginTop: 10,
+        width: '100%',
+        paddingLeft: 17,
+        display: 'flex',
+        justifyContent: 'space-around',
+        height: 230,
+    },
     opcoes:{
         color: '#264653',
-        fontSize: 19,
+        fontSize: 20,
+    },
+    footer:{
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        height: 50,
+        width: '55%',
+    },
+    contatos:{
+        color: '#264653',
+        fontSize: 11,
     }
 })
